@@ -1,6 +1,5 @@
 # Lonewolf Hash Security Auditor
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/ca9c47c9-2968-4a4e-9cdd-79d70616fbf2" />
-
+<img width="1408" height="768" alt="lonewolf-hashcracker" src="https://github.com/user-attachments/assets/e94d0889-1c0a-49cb-9251-4acc88af6a0b" />
 
 Lonewolf Hash Security Auditor is a modern, Linux-ready web application for **safe hash analysis and verification**. It is designed for legitimate security auditing, password policy testing, and educational use.
 
