@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lonewolf Hash Security Auditor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+
+  <main class="container">
+    <header class="hero card">
+      <div>
+        <p class="badge">Linux-ready • Web UI • Security Audit</p>
+        <h1>Lonewolf Hash Security Auditor</h1>
+        <p class="subtitle">
+          Detect likely hash type and verify plaintext against known hashes for legitimate security testing.
+        </p>
+      </div>
+      <div class="hero-stats">
+        <div><span id="health-dot" class="dot"></span> API Status: <strong id="health-text">Checking...</strong></div>
+      </div>
+    </header>
+
+    <section class="tabs card">
+      <div class="tab-header">
+        <button class="tab-btn active" data-tab="detect">Detect Hash</button>
+        <button class="tab-btn" data-tab="verify">Verify Plaintext</button>
+      </div>
+
+      <div id="detect" class="tab-content active">
+        <label for="detectHash">Hash Input</label>
+        <textarea id="detectHash" placeholder="Paste hash here..."></textarea>
+        <button id="detectBtn" class="btn-primary">Analyze Hash</button>
+        <div id="detectResult" class="result-panel hidden"></div>
+      </div>
+
+      <div id="verify" class="tab-content">
+        <label for="verifyHash">Hash Input</label>
+        <textarea id="verifyHash" placeholder="Paste hash here..."></textarea>
+
+        <label for="verifyPlain">Plaintext</label>
+        <input id="verifyPlain" type="text" placeholder="Enter plaintext to verify" />
+
+        <button id="verifyBtn" class="btn-primary">Verify Match</button>
+        <div id="verifyResult" class="result-panel hidden"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
