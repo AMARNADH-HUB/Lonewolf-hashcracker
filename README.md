@@ -123,7 +123,7 @@ uvicorn app.main:app --host <your-linux-ip> --port 8000
 - Docker Engine installed and running
 - Docker Compose plugin available (`docker compose`)
 - you can verify:
-  ```bash
+```bash
 docker --version
 docker compose version
 ```
@@ -139,8 +139,10 @@ cd Lonewolf-hashcracker
 docker compose up --build -d
 ```
 
+
 ### 4) Open Web UI
 - `http://localhost:8000`
+If you're on a remote server, replace localhost with your server’s IP.
 
 ### 5) Stop service
 ```bash
