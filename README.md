@@ -187,9 +187,6 @@ curl -X POST http://localhost:8000/api/verify \
 - Use this tool only for authorized systems and legal security testing.
 
 ---
-
-## Web UI
-
 <img width="1919" height="964" alt="Screenshot 2026-04-17 105222" src="https://github.com/user-attachments/assets/e9946461-61cd-4869-ba71-9bcc4c8cff68" />
 
 <img width="1918" height="969" alt="Screenshot 2026-04-17 105717" src="https://github.com/user-attachments/assets/6e941b6b-3e0a-493b-8f0d-77d27dbcd48d" />
