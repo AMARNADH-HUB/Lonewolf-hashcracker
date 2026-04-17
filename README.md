@@ -187,6 +187,8 @@ curl -X POST http://localhost:8000/api/verify \
 
 ## Web UI
 
+<img width="1235" height="947" alt="Screenshot 2026-04-17 112825" src="https://github.com/user-attachments/assets/1029591c-20b6-43a3-9e72-256b517868a8" />
+
 <img width="1919" height="956" alt="Screenshot 2026-04-17 105105" src="https://github.com/user-attachments/assets/6e52be26-149a-4e14-b254-c0f622a58119" />
 
 <img width="1919" height="964" alt="Screenshot 2026-04-17 105222" src="https://github.com/user-attachments/assets/e9946461-61cd-4869-ba71-9bcc4c8cff68" />
