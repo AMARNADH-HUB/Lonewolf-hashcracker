@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 ### 5) Start server
 ```bash
-uvicorn app.main:app --host machine-ip --port 8000
+uvicorn app.main:app --host <your-linux-ip> --port 8000
 ```
 
 ### 6) Open Web UI
