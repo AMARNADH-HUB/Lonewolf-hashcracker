@@ -150,7 +150,17 @@ If you're on a remote server, replace localhost with your server’s IP.
 ```bash
 docker compose down
 ```
-
+⚠️ Useful Tips
+If port 8000 is already in use, edit the docker-compose.yml file.
+To see logs:
+```bash
+docker compose logs -f
+```
+If something fails, try:
+```bash
+docker compose down
+docker compose up --build
+```
 ---
 
 ## API Endpoints
