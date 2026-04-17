@@ -122,6 +122,11 @@ uvicorn app.main:app --host <your-linux-ip> --port 8000
 ### 1) Prerequisites
 - Docker Engine installed and running
 - Docker Compose plugin available (`docker compose`)
+- you can verify:
+  ```bash
+docker --version
+docker compose version
+```
 
 ### 2) Clone repository
 ```bash
