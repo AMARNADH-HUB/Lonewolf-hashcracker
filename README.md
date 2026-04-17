@@ -141,8 +141,9 @@ docker compose up --build -d
 
 
 ### 4) Open Web UI
-- `http://localhost:8000`
-  
+```bash
+http://localhost:8000
+```  
 If you're on a remote server, replace localhost with your server’s IP.
 
 ### 5) Stop service
