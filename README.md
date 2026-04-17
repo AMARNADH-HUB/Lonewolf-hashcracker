@@ -113,6 +113,8 @@ uvicorn app.main:app --host <your-linux-ip> --port 8000
 - Local machine: `http://localhost:8000`
 - Same LAN: `http://<your-linux-ip>:8000`
 
+<img width="1919" height="956" alt="Screenshot 2026-04-17 105105" src="https://github.com/user-attachments/assets/6e52be26-149a-4e14-b254-c0f622a58119" />
+
 ---
 
 ## Option 2: Install and Run on Linux (Docker)
@@ -187,8 +189,6 @@ curl -X POST http://localhost:8000/api/verify \
 ---
 
 ## Web UI
-
-<img width="1919" height="956" alt="Screenshot 2026-04-17 105105" src="https://github.com/user-attachments/assets/6e52be26-149a-4e14-b254-c0f622a58119" />
 
 <img width="1919" height="964" alt="Screenshot 2026-04-17 105222" src="https://github.com/user-attachments/assets/e9946461-61cd-4869-ba71-9bcc4c8cff68" />
 
