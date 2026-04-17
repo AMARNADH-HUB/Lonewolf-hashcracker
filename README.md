@@ -113,7 +113,7 @@ uvicorn app.main:app --host <your-linux-ip> --port 8000
 - Local machine: `http://localhost:8000`
 - Same LAN: `http://<your-linux-ip>:8000`
 
-<img width="1919" height="956" alt="Screenshot 2026-04-17 105105" src="https://github.com/user-attachments/assets/6e52be26-149a-4e14-b254-c0f622a58119" />
+<img width="1919" height="748" alt="Screenshot 2026-04-17 124519" src="https://github.com/user-attachments/assets/9d3f72fb-cf83-4ff4-ae59-43340d127889" />
 
 ---
 
@@ -159,6 +159,8 @@ curl -X POST http://localhost:8000/api/detect \
   -d '{"hash_value":"5d41402abc4b2a76b9719d911017c592"}'
 ```
 
+<img width="1919" height="956" alt="Screenshot 2026-04-17 105105" src="https://github.com/user-attachments/assets/6e52be26-149a-4e14-b254-c0f622a58119" />
+
 ### Example: Verify
 
 ```bash
@@ -166,6 +168,9 @@ curl -X POST http://localhost:8000/api/verify \
   -H "Content-Type: application/json" \
   -d '{"hash_value":"5d41402abc4b2a76b9719d911017c592","plaintext":"hello"}'
 ```
+<img width="1919" height="964" alt="Screenshot 2026-04-17 105222" src="https://github.com/user-attachments/assets/e9946461-61cd-4869-ba71-9bcc4c8cff68" />
+
+<img width="1918" height="969" alt="Screenshot 2026-04-17 105717" src="https://github.com/user-attachments/assets/6e941b6b-3e0a-493b-8f0d-77d27dbcd48d" />
 
 ---
 
@@ -187,10 +192,6 @@ curl -X POST http://localhost:8000/api/verify \
 - Use this tool only for authorized systems and legal security testing.
 
 ---
-<img width="1919" height="964" alt="Screenshot 2026-04-17 105222" src="https://github.com/user-attachments/assets/e9946461-61cd-4869-ba71-9bcc4c8cff68" />
-
-<img width="1918" height="969" alt="Screenshot 2026-04-17 105717" src="https://github.com/user-attachments/assets/6e941b6b-3e0a-493b-8f0d-77d27dbcd48d" />
-
 ---
 
 ## MIT LICENSE
